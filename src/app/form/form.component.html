@@ -1,0 +1,105 @@
+<!-- <ng-container>
+    <nz-card> 
+       <form nz-form formGroup="validateForm" (ngSubmit)="submitForm()">
+        <div class="row">
+            <div class="col-6"> 
+                <nz-form-label class="label">
+                   First Name
+                </nz-form-label>
+                <input nz-input class="input" formControlName="email" id="email" />
+            </div>
+            <div class="col-6"> 
+                <nz-form-label class="label">
+                  Last Name
+                </nz-form-label>
+                <input nz-input class="input" formControlName="email" id="email" />
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-6"> 
+                <nz-form-label class="label">
+                   Email
+                </nz-form-label>
+                <input nz-input class="input" formControlName="email" id="email" />
+            </div>
+            <div class="col-6"> 
+                <nz-form-label class="label">
+                  Password
+                </nz-form-label>
+                <input nz-input type="password" class="input" formControlName="email" id="email" />
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-6"> 
+                <nz-form-label class="label">
+                   Gender
+                </nz-form-label>
+                <nz-select formControlName="phoneNumberPrefix" class="phone-select">
+                    <nz-option nzLabel="+86" nzValue="+86"></nz-option>
+                    <nz-option nzLabel="+87" nzValue="+87"></nz-option>
+                  </nz-select>
+            </div>
+            <div class="col-6"> 
+                <nz-form-label class="label">
+                  Education
+                </nz-form-label>
+                <input nz-input class="input" formControlName="email" id="email" />
+            </div>
+
+        </div>
+
+      
+
+        </form>
+
+    </nz-card>
+</ng-container> -->
+
+<ng-container>
+    <nz-card>
+        <div class="row">
+            <div class="col-6">
+                <label for="">Name</label>
+                <input type="text" class="form-control form-control-sm"  placeholder="">
+              </div>
+              <div class=" col-6">
+                <label for="">Phone Number</label>
+                <input type="text" class="form-control form-control-sm"  placeholder="">  
+              </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-6">
+                <label for="">Email address</label>
+                <input type="email" class="form-control form-control-sm"  placeholder="">
+              </div>
+              <div class=" col-6">
+                <label for="">Password</label>
+                <input type="password" class="form-control form-control-sm"  placeholder="">  
+              </div>
+        </div>
+        <br>
+
+        <div class="row"> 
+            <label>
+                Gender
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Male
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                 Female
+                </label>
+              </div>
+            </label>
+        </div>
+
+
+    </nz-card>
+</ng-container>

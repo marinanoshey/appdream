@@ -1,0 +1,20 @@
+<ng-container>
+  <div class="row">
+    <div class="card col-3" *ngFor="let card of cards">
+      <img [src]="card.image" alt="Card Image" />
+      <p>{{ card.p1 }}</p>
+    </div>
+  </div>
+  <nz-card>
+    <h1>Head Lines</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quo
+      pariatur voluptatum, sunt explicabo quae cum neque qui, eaque distinctio
+      eum ipsa, soluta vitae. Molestias non obcaecati nulla eum veniam. Lorem
+      ipsum dolor sit amet consectetur adipisicing elit. Recusandae quo pariatur
+      voluptatum, sunt explicabo quae cum neque qui, eaque distinctio eum ipsa,
+      soluta vitae. Molestias non obcaecati nulla eum veniam. Lorem ipsum dolor
+      sit amet consectetur adipisicing elit.
+    </p>
+  </nz-card>
+</ng-container>
